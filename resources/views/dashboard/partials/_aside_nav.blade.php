@@ -13,7 +13,10 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
                 <li>
-                    <a href="{{ route('dashboard') }}"></i> Dashboard</a>
+                    <a href="{{ route('dashboard') }}">Dashboard</a>
+                </li>
+                <li>
+                    <a href="{{ route('dashboard.categories.show') }}">Categories</a>
                 </li>
                 <li>
                     <a href="{{ url('/logout') }}"
